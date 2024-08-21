@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of the World</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link,
+        .dropdown-menu a {
+            color: white !important;
+        }
+
+        .dropdown-menu {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .parallax-section {
+            position: relative;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .parallax-section h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .parallax-section p {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Seven Wonders</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="wondersDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Wonders
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="wondersDropdown">
+                            <li><a class="dropdown-item" href="#great-wall">Great Wall of China</a></li>
+                            <li><a class="dropdown-item" href="#petra">Petra</a></li>
+                            <li><a class="dropdown-item" href="#christ-the-redeemer">Christ the Redeemer</a></li>
+                            <li><a class="dropdown-item" href="#machu-picchu">Machu Picchu</a></li>
+                            <li><a class="dropdown-item" href="#chichen-itza">Chichen Itza</a></li>
+                            <li><a class="dropdown-item" href="#colosseum">Colosseum</a></li>
+                            <li><a class="dropdown-item" href="#taj-mahal">Taj Mahal</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Parallax Section 1: Home -->
+    <div id="home" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Home.jpg');">
+        <div>
+            <h1>Welcome to the Seven Wonders</h1>
+            <p>Explore the marvels of the ancient and modern world</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 2: Great Wall of China -->
+    <div id="great-wall" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Great\ Wall\ of\ China.jpg');">
+        <div>
+            <h1>Great Wall of China</h1>
+            <p>A historic fortification stretching over 13,000 miles</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 3: Petra -->
+    <div id="petra" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Petra.jpg');">
+        <div>
+            <h1>Petra</h1>
+            <p>The ancient city carved into red rock cliffs in Jordan</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 4: Christ the Redeemer -->
+    <div id="christ-the-redeemer" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Christ\ the\ redeemer.jpg');">
+        <div>
+            <h1>Christ the Redeemer</h1>
+            <p>An iconic statue overlooking Rio de Janeiro</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 5: Machu Picchu -->
+    <div id="machu-picchu" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Machu\ Picchu.jpg');">
+        <div>
+            <h1>Machu Picchu</h1>
+            <p>The lost Incan city nestled in the Andes Mountains</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 6: Chichen Itza -->
+    <div id="chichen-itza" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Chichen\ Itza.jpg');">
+        <div>
+            <h1>Chichen Itza</h1>
+            <p>A Mayan pyramid in the Yucatan Peninsula</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 7: Colosseum -->
+    <div id="colosseum" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Colosseum.jpg');">
+        <div>
+            <h1>Colosseum</h1>
+            <p>The grand amphitheater in Rome, Italy</p>
+        </div>
+    </div>
+
+    <!-- Parallax Section 8: Taj Mahal -->
+    <div id="taj-mahal" class="parallax-section" style="background-image: url('/My_Works/Parallax/Assets/Taj\ Mahal.jpg');">
+        <div>
+            <h1>Taj Mahal</h1>
+            <p>A symbol of love in Agra, India</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seven Wonders of the World. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
